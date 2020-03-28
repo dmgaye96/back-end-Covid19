@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="8" assertions="0" errors="8" failures="0" skipped="0" time="19.791514">
+    <testsuite name="App\Tests\PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="10.077769">
+      <testcase name="testAjoutPartenaire" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="10" assertions="0" time="6.255047">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\PartenaireControllerTest::testAjoutPartenaire
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:13
+</error>
+      </testcase>
+      <testcase name="testAjoutCompte" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="31" assertions="0" time="1.877115">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\PartenaireControllerTest::testAjoutCompte
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:34
+</error>
+      </testcase>
+      <testcase name="testAjoutDepot" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="53" assertions="0" time="1.945607">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\PartenaireControllerTest::testAjoutDepot
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:56
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="App\Tests\UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" tests="5" assertions="0" errors="5" failures="0" skipped="0" time="9.713745">
+      <testcase name="testNew" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="10" assertions="0" time="1.885306">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\UtilisateurControllerTest::testNew
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:13
+</error>
+      </testcase>
+      <testcase name="testNewadmin" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="38" assertions="0" time="1.965467">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\UtilisateurControllerTest::testNewadmin
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:41
+</error>
+      </testcase>
+      <testcase name="testLogin" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="64" assertions="0" time="2.031033">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\UtilisateurControllerTest::testLogin
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:67
+</error>
+      </testcase>
+      <testcase name="testLoginKO" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="85" assertions="0" time="1.947785">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\UtilisateurControllerTest::testLoginKO
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:88
+</error>
+      </testcase>
+      <testcase name="testRegister" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="106" assertions="0" time="1.884154">
+        <error type="Doctrine\Common\Annotations\AnnotationException">App\Tests\UtilisateurControllerTest::testRegister
+Doctrine\Common\Annotations\AnnotationException: [Semantical Error] The annotation "@Assert\Regex" in property App\Entity\Utilisateur::$telephone was never imported. Did you maybe forget to add a "use" statement for this annotation?
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php:54
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:734
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:663
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php:354
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php:254
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:113
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Util/AnnotationFilterExtractorTrait.php:102
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:62
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php:51
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/Compiler/Compiler.php:95
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/dependency-injection/ContainerBuilder.php:756
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:550
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:133
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/KernelTestCase.php:74
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Test/WebTestCase.php:42
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:109
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
